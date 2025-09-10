@@ -1,0 +1,31 @@
+{
+  "name": "algonova",
+  "version": "1.0.0",
+  "description": "Algonova Group's backend submission for Capital W's Case Competition: a conversational AI that yarns to empathise with aboriginal and regional Australians, to provide mental health support to rural communities. This backend using express.js and Gemini API to handle user's prompts for the frontend.",
+  "homepage": "https://github.com/aidantze/algonova#readme",
+  "bugs": {
+    "url": "https://github.com/aidantze/algonova/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidantze/algonova.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "@google/generative-ai": "^0.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
